@@ -1,16 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 585d6f9 (Lab 2 done. WalletPage.tsx updated)
-import React from 'react';
-
-const WalletPage: React.FC = () => {
-    return (
-        <div className=" bg-gray-200 flex items-center justify-center border border-gray-400">
-            <h1 className="text-xl font-bold">Wallet Page</h1>
-<<<<<<< HEAD
-=======
-=======
 import React, { useState } from 'react';
 import { PublicKey } from '@solana/web3.js';
 
@@ -52,8 +39,6 @@ const WalletPage: React.FC = () => {
                     <strong>Generated address:</strong> {generatedAddress}
                 </div>
             )}
->>>>>>> 32eabe1 (Lab 2 done. WalletPage.tsx updated)
->>>>>>> 585d6f9 (Lab 2 done. WalletPage.tsx updated)
         </div>
     );
 };
